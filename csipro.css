@@ -1,0 +1,165 @@
+
+.dropbtn:hover,.dropbtn:focus
+{background-color: #7effa5;
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content
+{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px
+	rgba(0,0,0,0.2);
+}
+.dropdown-content a{
+	color: black;
+	padding: 12px 16px;
+	text-decoration:none;
+	display: block;
+}
+.dropdown a:hover
+{background-color: #f1f1f1}
+.show {display: block;}
+body
+{
+	background: url(background.png) no-repeat top fixed;
+	background-size: cover;
+	padding-top: 0;
+	margin:0;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+li{
+	float: left;
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration:none;
+
+}
+li a:hover:not(.active)
+{
+	background-color: turquoise;
+
+}
+.active
+{
+	background-color: steelblue;
+}
+#first
+{
+	margin-left: 80px;
+	width: 80%;
+	height: 10%;
+	background-color: pink;
+	overflow: hidden;
+	padding: 10px;
+
+}
+#ini
+{
+	background-color: grey;
+	padding-top: 10px;
+
+}
+.para
+{width: 80%
+}
+#second
+{
+	width: 80%;
+	height: 30%;
+	background-color: orange;
+	padding: 10px;
+	margin-left: 80px;
+	margin-top: 30px;
+
+}
+#third
+{
+	width: 80%;
+	height: 30%;
+	background-color: lightblue;
+	margin-left: 80px;
+	margin-top: 30px;
+	padding: 10px;
+}
+#start
+{
+	padding-top: 500px;
+	text-align: center;
+	color: white;
+	font-size: 2em;
+
+}
+#image
+{
+	position: relative;
+	left: 20px;
+	width: 10%
+}
+#logo img
+
+{
+	position: relative;
+	display: block;
+	transition: all 0.5s;
+	margin-left: auto;
+	margin-right: auto;
+	width: 280px;
+	height:280px;
+}
+#logo img:hover
+{
+	transform: scale(1.2),rotate(720deg);
+}
+
+/*.abc{
+position:absolute;
+bottom:20px;
+left:30 px;
+color:black;
+}
+.abc{
+position:absolute;
+bottom:20px;
+left:30 px;
+color:black;
+}
+.abc{
+position:absolute;
+bottom:20px;
+left:30 px;
+color:black;
+}
+.abc{
+position:absolute;
+bottom:20px;
+left:30 px;
+color:black;
+}
+.abc{
+position:absolute;
+bottom:20px;
+left:30 px;
+color:black;
+}
+*/
+
+footer {
+	text-align: center;
+	background-color: red;
+}

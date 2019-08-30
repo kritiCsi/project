@@ -102,7 +102,8 @@ li a:hover:not(.active)
 	padding-top: 500px;
 	text-align: center;
 	color: white;
-	font-size: 2em;
+	font-size: 10em;
+
 
 }
 #image
@@ -114,19 +115,26 @@ li a:hover:not(.active)
 #logo img
 
 {
-	position: relative;
-	display: block;
-	transition: all 0.5s;
-	margin-left: auto;
-	margin-right: auto;
-	width: 280px;
-	height:280px;
+	
+	display: inline-block;
+	margin-left: 40%;
+ transform transition x :(-50%);
+	
+	
 }
 #logo img:hover
 {
-	transform: scale(1.2),rotate(720deg);
+	transform: scale(1.15) rotate(720deg);
+	transition-duration: 0.7s;
 }
+.bt{
+	margin-left: 50%;
 
+}
+.but1{
+	margin-right: 100px;
+	margin-left:10px;
+}
 /*.abc{
 position:absolute;
 bottom:20px;
@@ -159,7 +167,54 @@ color:black;
 }
 */
 
-footer {
+.last {
+	height: 100%;
+	width: 100%;
+	background-color: #222;
 	text-align: center;
-	background-color: red;
+	font-size: 16px;
+	font-family: arial;
+	color: #fff;
+	padding: 10px 0 10px 0;
+	margin: 20px;
+}
+
+
+.round-button {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	border-radius: 50%;
+	color: #222;
+	text-decoration: none;
+	background: #fff;
+	margin: 0 20px 0 20px;
+	
+	font-size: 3.75rem;
+	border: 3px solid #222;
+	
+}
+
+
+.round-button:hover {
+	background-color: orange;
+	color: #fff;
+	font-size: 4rem;
+	border-color: #fff;
+	text-align: center;
+}
+.foot {
+	height: 100%;
+	width: 100%;
+	background-color: purple;
+	text-align: center;
+	font-size: 16px;
+	font-family: arial;
+	font-color:#222;
+	color: #222;
+	padding: 10px 0 10px 0;
+	margin: 20px;
 }
